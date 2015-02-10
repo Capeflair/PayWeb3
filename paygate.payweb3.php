@@ -183,6 +183,7 @@ class PayGate_PayWeb3{
 	/**
 	 * Function to generate the checksum to be passed in the initiate call. Refer to examples on Page 15 of the PayWeb3 documentation
 	 *
+	 * @param array $postData
 	 * @return string (md5 hash value)
 	 */
 	public function generateChecksum($postData){
